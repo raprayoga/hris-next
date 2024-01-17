@@ -176,15 +176,6 @@ export function LoginForm({
           Login
         </Button>
       </form>
-
-      <div className="mt-5">
-        <span className="text-xs ">
-          belum punya akun? registrasi{" "}
-          <Link href="/register" className="text-primary font-bold">
-            di sini
-          </Link>
-        </span>
-      </div>
     </div>
   );
 }
